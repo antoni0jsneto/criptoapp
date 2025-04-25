@@ -42,19 +42,23 @@ export function Detail() {
               notation: "compact",
             });
 
-            const resultData = {
-              ...data.data,
-              formatedPrice: price.format(Number(data.data.priceUsd)),
-              formatedMarket: priceCompact.format(
-                Number(data.data.marketCapUsd)
-              ),
-              formatedVolume: priceCompact.format(
-                Number(data.data.volumeUsd24Hr)
-              ),
-            };
+            if ("data" in data) {
+              const resultData = {
+                ...data.data,
+                formatedPrice: price.format(Number(data.data.priceUsd)),
+                formatedMarket: priceCompact.format(
+                  Number(data.data.marketCapUsd)
+                ),
+                formatedVolume: priceCompact.format(
+                  Number(data.data.volumeUsd24Hr)
+                ),
+              };
 
-            setCoin(resultData);
-            setLoading(false);
+              setCoin(resultData);
+              setLoading(false);
+            } else {
+              console.error(data.error);
+            }
           });
       } catch (error) {
         console.log(error);
