@@ -8,6 +8,11 @@ Aplicativo web desenvolvido em **React** com **Vite**, que consome dados da **Co
 
 ---
 
+## 📺 Demonstração
+
+Você pode ver o projeto funcionando em:  
+🔗 [https://criptoapp-d6yig961m-antoni0netos-projects.vercel.app/](https://criptoapp-d6yig961m-antoni0netos-projects.vercel.app/)
+
 ## 📱 Funcionalidades
 
 - ✅ Lista de criptomoedas com nome, símbolo, imagem e valor atual.
