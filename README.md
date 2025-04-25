@@ -101,7 +101,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 👨‍💻 Autor
 
 Desenvolvido por **Antônio Neto** 🚀  
-[LinkedIn](https://www.linkedin.com/in/antoni0jsneto) • [GitHub](https://github.com/antoni0jsneto)
+[LinkedIn](https://www.linkedin.com/in/antoni0neto) • [GitHub](https://github.com/antoni0jsneto)
 
 ---
 
