@@ -15,16 +15,6 @@ Aplicativo web desenvolvido em **React** com **Vite**, que consome dados da **Co
 - ✅ Interface limpa e responsiva.
 - ✅ Atualização dos dados via CoinCap API.
 
----
-
-## 📸 Captura de Tela
-
-| Lista de Moedas                                                                                           |
-| --------------------------------------------------------------------------------------------------------- |
-| ![tela](https://github.com/antoni0jsneto/criptoapp/assets/123251330/bc25795e-c49f-4d2d-9e7a-62d6344bda17) |
-
----
-
 ## 🚀 Tecnologias Utilizadas
 
 - [React](https://reactjs.org/)
@@ -80,13 +70,10 @@ Aplicativo web desenvolvido em **React** com **Vite**, que consome dados da **Co
 ```
 criptoapp/
 │
-├── components/
-│   └── CoinItem.jsx   # Componente que exibe os dados da moeda
+├── pages/
+│   └── Detail.tsx   # Componente que exibe os dados da moeda
 │
-├── services/
-│   └── api.js         # Configuração do Axios com a API
-│
-├── App.jsx            # Componente principal
+├── App.tsx            # Componente principal
 └── ...
 ```
 
